@@ -16,9 +16,14 @@
 .option accurate = 0.01
 
 ***//Resistant//***
-
+Rref	2	1	24.3
+R2		18	0	----
+R3		100	18	----
+R4		17	0	----
+R5		100	17	----
 
 ***//Capacitors//***
+
 
 
 ***//Transistor//***
@@ -51,16 +56,13 @@ M20	9	1	0	0	mosn  w=14.4u  l=0.36u as=6.48p		ps=25.08u ad=6.48p pd=25.08u
 
 
 ***//Voltage//***
-VDD	9	0	1.5
-Vss	11	0	-1.5
-
-Vb1	6	0	0.7
+VDD	100	0	1.8
 
 
 ***//Diff//***
-Vin 500	0	ac=1	sin(0	1u	1k	0	0	0)
-E1	1	400	500	0	-0.5
-E2	2	0	500	0	0.5
+Vin 
+E1	
+E2	
 
 
 ***//models//***
