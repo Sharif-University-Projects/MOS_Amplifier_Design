@@ -1,0 +1,70 @@
+****** HSPICE -- Q-2020.03-SP1 win64 (May 27 2020) ******
+Input File: project.sp
+lic:
+lic: FLEXlm: SDK_12.6
+lic: USER:   smsaj                HOSTNAME: sajadi
+lic: HOSTID: "00155d750100"       PID:      18712
+lic: Using FLEXlm license file:
+lic: 27000@sajadi
+lic: Checkout 2 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+lic: 2(in_use)/99(total) FLOATING license(s) on SERVER 27000@sajadi
+lic:
+
+ init: begin read circuit files, cpu clock= 2.70E-02
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/behave/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/AD/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/XILINX/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/TLINE/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/TI/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/PCI/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/LIN_TECH/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/PET/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/DI0/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/COMLINE/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/BURR_BRM/
+       option search = C:/synopsys/Hspice_Q-2020.03-SP1/parts/BJT/
+       option vntol =    1.000E-12
+       option nomod
+       option post
+       option accurate =    1.000E-02
+ init: end read circuit files, cpu clock= 2.90E-02 peak memory=      69 mb
+ init: begin check errors, cpu clock= 2.90E-02
+ lic: Checkin 1 hspice token(s)
+ init: end check errors, cpu clock= 3.10E-02 peak memory=      69 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 3.10E-02
+       establish matrix -- done, cpu clock= 3.10E-02 peak memory=      69 mb
+       re-order matrix -- done, cpu clock= 3.10E-02 peak memory=      69 mb
+ init: end setup matrix, cpu clock= 3.10E-02 peak memory=      69 mb
+ dcop: begin dcop, cpu clock= 3.10E-02
+ dcop: end dcop, cpu clock= 3.50E-02 peak memory=      69 mb tot_iter=     233
+ output: F:\A_Univercity\Term_9\ELE_3\Project\Phase_2\V2\project.ac0
+ sweep: ac ac0    begin, #sweeps=1301 cpu clock= 3.50E-02
+ ac: frequency=1.00e+00
+ ac: frequency=2.00e+01
+ ac: frequency=3.98e+02
+ ac: frequency=7.94e+03
+ ac: frequency=1.58e+05
+ ac: frequency=3.16e+06
+ ac: frequency=6.31e+07
+ ac: frequency=1.26e+09
+ ac: frequency=2.51e+10
+ ac: frequency=5.01e+11
+ ac: frequency=1.00e+13
+ sweep: ac ac0    end, cpu clock= 4.30E-02 peak memory=      69 mb
+ output: F:\A_Univercity\Term_9\ELE_3\Project\Phase_2\V2\project.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-02 #sweeps=**** cpu clock= 4.30E-02
+ tran: time= 1.0000E-03 tot_iter=     288 conv_iter=     144 cpu clock= 4.50E-02
+ tran: time= 2.0000E-03 tot_iter=     544 conv_iter=     272 cpu clock= 4.70E-02
+ tran: time= 3.0000E-03 tot_iter=     800 conv_iter=     400 cpu clock= 4.90E-02
+ tran: time= 4.0000E-03 tot_iter=    1056 conv_iter=     528 cpu clock= 5.10E-02
+ tran: time= 5.0000E-03 tot_iter=    1312 conv_iter=     656 cpu clock= 5.30E-02
+ tran: time= 6.0000E-03 tot_iter=    1568 conv_iter=     784 cpu clock= 5.50E-02
+ tran: time= 7.0000E-03 tot_iter=    1824 conv_iter=     912 cpu clock= 5.70E-02
+ tran: time= 8.0000E-03 tot_iter=    2080 conv_iter=    1040 cpu clock= 5.90E-02
+ tran: time= 9.0000E-03 tot_iter=    2336 conv_iter=    1168 cpu clock= 6.10E-02
+ tran: time= 1.0000E-02 tot_iter=    2592 conv_iter=    1296 cpu clock= 6.30E-02
+ sweep: tran tran0    end, cpu clock= 6.30E-02 peak memory=      69 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

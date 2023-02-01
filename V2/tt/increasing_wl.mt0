@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='Q-2020.03-SP1 win64' PARAM_COUNT=0
+.TITLE '*********//devices//*********'
+ gain             temper           alter#          
+    failed          25.0000        1               

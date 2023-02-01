@@ -1,0 +1,30 @@
+* "simulator" "HSPICE" 
+* "version" "Q-2020.03-SP1 win64"
+* "format" "HSP"
+* "rundate" "19:02:50 02/01/2023 "
+* "netlist" "project.sp "
+* "runtitle" "*********//devices//*********"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 600.3939m       
++ 2 =   1.1972        
++ 3 = 714.0000m       
++ 4 = 714.0000m       
++ 5 =   1.3985        
++ 6 =  92.2947m       
++ 7 = 906.8089m       
++ 8 =   1.5512        
++ 10 = 409.4270m       
++ 11 = 184.4945m       
++ 12 = 409.4270m       
++ 14 =   1.5512        
++ 15 = 906.8090m       
++ 16 =   1.1002        
++ 17 = 830.2583m       
++ 18 = 900.0000m       
++ 100 =   1.8000        
+***   END: Saved Operating Point ***                     
